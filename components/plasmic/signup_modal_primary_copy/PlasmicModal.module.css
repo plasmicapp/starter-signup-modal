@@ -1,0 +1,193 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  position: relative;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.32);
+  background: var(--token-2IFvBlye4no);
+  flex-wrap: nowrap;
+  max-width: 720px;
+  min-width: 0;
+}
+.root > :nth-child(2n + 1) {
+  width: calc((100% - 2 * 0px) * 7 / 12);
+}
+.root > :nth-child(2n + 2) {
+  width: calc((100% - 2 * 0px) * 5 / 12);
+}
+@media (min-width: 0px) and (max-width: 700px) {
+  .root {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 700px) {
+  .root > :nth-child(1n + 1) {
+    width: calc((100% - 1 * 0px) * 12 / 12);
+  }
+}
+.column___3XdA4 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 58.333333%;
+}
+@media (min-width: 0px) and (max-width: 700px) {
+  .column___3XdA4 {
+    width: 100%;
+  }
+}
+.freeBox__q4LoC {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  min-height: 0;
+}
+.freeBox__otmzj {
+  flex-direction: column;
+  display: flex;
+  width: 80%;
+  height: auto;
+}
+.freeBox__otmzj > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.freeBox__otmzj > :global(.__wab_flex-container) > *,
+.freeBox__otmzj > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__otmzj > :global(.__wab_flex-container) > picture > img,
+.freeBox__otmzj
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 32px;
+}
+.slotTargetHeading {
+  font-size: var(--token-DBwgxmWnGWo);
+  font-weight: 700;
+  color: var(--token-G5GyWcys5mt);
+}
+.freeBox__n0ZYx {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__n0ZYx > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.freeBox__n0ZYx > :global(.__wab_flex-container) > *,
+.freeBox__n0ZYx > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__n0ZYx > :global(.__wab_flex-container) > picture > img,
+.freeBox__n0ZYx
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 20px;
+}
+.freeBox__sbfBg {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50px;
+  background: var(--token-5Evi2TmBdaN);
+  min-width: 0;
+  flex-shrink: 0;
+}
+.email {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 0;
+  min-height: 0;
+}
+.signupButton:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.freeBox__x2Aeo {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+}
+.freeBox__x2Aeo > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.freeBox__x2Aeo > :global(.__wab_flex-container) > *,
+.freeBox__x2Aeo > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__x2Aeo > :global(.__wab_flex-container) > picture > img,
+.freeBox__x2Aeo
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 5px;
+}
+.slotTargetBeforeSignup {
+  color: var(--token-G5GyWcys5mt);
+}
+.link {
+  position: relative;
+}
+.column__bw0Eb {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 41.666667%;
+}
+@media (min-width: 0px) and (max-width: 700px) {
+  .column__bw0Eb {
+    width: 100%;
+    display: none;
+  }
+}
+.highlightImage {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.highlightImage > picture > img {
+  object-fit: cover;
+}
+.highlightImage > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 700px) {
+  .highlightImage {
+    height: 148px;
+    flex-shrink: 0;
+  }
+}

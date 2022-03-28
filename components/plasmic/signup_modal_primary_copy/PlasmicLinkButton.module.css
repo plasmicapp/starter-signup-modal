@@ -1,0 +1,18 @@
+.signupButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  position: relative;
+  width: 200px;
+  background: var(--token-dd2YW0NZeLj);
+  border-radius: 10px;
+}
+.signupButton:hover {
+  background: var(--token-l4RiPKpzX7W);
+}
+.text {
+  position: relative;
+  color: var(--token-2IFvBlye4no);
+}
